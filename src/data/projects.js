@@ -1,0 +1,108 @@
+export const projects = [
+  {
+    slug: 'youtube-clone',
+    title: '📺 YouTube Clone',
+    excerpt: 'A React + Redux powered YouTube clone with video playback and search.',
+    cover: 'https://images.unsplash.com/photo-1505238680356-667803448bb6?q=80&w=1600&auto=format&fit=crop',
+    tech: ['React', 'Redux', 'Firebase'],
+    timeline: '2025',
+    impact: ['Real-time search', 'Video playback with recommendations'],
+    details: `Built a scalable video platform with React, Redux, and Firebase for data and auth.`,
+    repo: 'https://github.com/Sharma0813/youtube-clone',
+    gallery: []
+  },
+  {
+    slug: 'gmail-clone',
+    title: '📧 Gmail Clone',
+    excerpt: 'A Gmail-inspired email client with inbox, compose, and authentication.',
+    cover: 'https://images.unsplash.com/photo-1586717799252-bd134ad00e26?q=80&w=1600&auto=format&fit=crop',
+    tech: ['React', 'Redux', 'Tailwind', 'Firebase'],
+    timeline: '2025',
+    impact: ['User authentication', 'Send & receive emails', 'Responsive inbox UI'],
+    details: `Developed a Gmail clone with features like user signup/login, inbox, compose email, and responsive design using React, Redux, Tailwind, and Firebase.`,
+    repo: 'https://github.com/Sharma0813/gmail-clone',
+    gallery: []
+  },
+  {
+    slug: 'weather-app',
+    title: '⛅ Weather App',
+    excerpt: 'Weather forecast app with live API integration.',
+    cover: 'https://images.unsplash.com/photo-1501973801540-537f08ccae7b?q=80&w=1600&auto=format&fit=crop',
+    tech: ['React', 'Weather API'],
+    timeline: '2025',
+    impact: ['Real-time forecasts', 'Location-based weather'],
+    details: `Built a responsive weather app fetching data from external APIs.`,
+    repo: 'https://github.com/Sharma0813/weather-app',
+    gallery: []
+  },
+  {
+    slug: 'expense-tracker',
+    title: '📄 Expense Tracker',
+    excerpt: 'Track expenses with categories, done/undone toggle, and insights.',
+    cover: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=1600&auto=format&fit=crop', 
+    tech: ['MERN', 'Tailwind'],
+    timeline: '2025',
+    details: `CRUD expenses, mark them as done/undone, and analyze spending visually.`,
+    repo: 'https://github.com/Sharma0813/expense-tracker',
+    gallery: []
+  },
+  {
+    slug: 'ecommerce',
+    title: '🛒 E-commerce',
+    excerpt: 'Full-stack shopping app with cart, checkout, and payments.',
+    cover: 'https://images.unsplash.com/photo-1556741533-411cf82e4e2d?q=80&w=1600&auto=format&fit=crop',
+    tech: ['MERN', 'Stripe', 'Tailwind'],
+    timeline: '2025',
+    details: `Built scalable shopping features including product catalog, payments, and admin dashboard.`,
+    repo: 'https://github.com/Sharma0813/ecommerce',
+    gallery: []
+  },
+  {
+    slug: 'animal-blog-site',
+    title: '🐾 Animal Blog Site',
+    excerpt: 'A blog platform for animal stories with posts and categories.',
+    cover: 'https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?q=80&w=1600&auto=format&fit=crop',
+    tech: ['React', 'React Router', 'Tailwind'],
+    timeline: '2025',
+    impact: ['Responsive blog layout', 'Easy navigation'],
+    details: `Implemented blog pages, post creation, and category filtering.`,
+    repo: 'https://github.com/Sharma0813/animal-blog-site',
+    gallery: []
+  },
+  {
+    slug: 'chat-app',
+    title: '💬 Chat App',
+    excerpt: 'A real-time chat application with WebSocket communication.',
+    cover: 'https://images.unsplash.com/photo-1516321165247-4aa89a48be28?q=80&w=1600&auto=format&fit=crop',
+    tech: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+    timeline: '2025',
+    impact: ['Instant messaging', 'User authentication', 'Online/offline status'],
+    details: `Built a real-time chat app using React, Node.js, Socket.io, and MongoDB with features like private chat, online status, and message history.`,
+    repo: 'https://github.com/Sharma0813/chat-app',
+    gallery: []
+  },
+  {
+    slug: 'bookmyshow-clone',
+    title: '🎬 BookMyShow Clone',
+    excerpt: 'A clone of BookMyShow with movie listings, seat booking, and payments.',
+    cover: 'https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?q=80&w=1600&auto=format&fit=crop',
+    tech: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
+    timeline: '2025',
+    impact: ['Ticket booking flow', 'Responsive UI'],
+    details: `Implemented movie listing, seat selection, and booking with secure payment integration.`,
+    repo: 'https://github.com/Sharma0813/bookmyshow-clone',
+    gallery: []
+  },
+  {
+    slug: 'social-media-app',
+    title: '🌐 Social Media App',
+    excerpt: 'A full-stack social media platform with posts, likes, and chat.',
+    cover: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1600&auto=format&fit=crop',
+    tech: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+    timeline: '2025',
+    impact: ['Real-time messaging', 'User profiles and posts'],
+    details: `Built user auth, posts, comments, likes, and real-time chat using Socket.io.`,
+    repo: 'https://github.com/Sharma0813/social-media-app',
+    gallery: []
+  },
+];
