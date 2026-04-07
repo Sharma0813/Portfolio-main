@@ -38,9 +38,9 @@ export default function Hero(){
               <img className="h-full w-full object-cover" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format&fit=crop" alt="Hero" />
             </div>
             <div className="mt-5 grid grid-cols-3 gap-3 text-center text-sm text-gray-600">
-              <div className="card p-3"><span className="block text-2xl font-semibold text-gray-900">30+</span> Projects</div>
-              <div className="card p-3"><span className="block text-2xl font-semibold text-gray-900">10+</span>Tech Skills</div>
-              <div className="card p-3"><span className="block text-2xl font-semibold text-gray-900">3 Years</span> Experience</div>
+              <div className="card p-3"><span className="block text-2xl font-semibold text-gray-900">50+</span> Projects</div>
+              <div className="card p-3"><span className="block text-2xl font-semibold text-gray-900">15+</span>Tech Skills</div>
+              <div className="card p-3"><span className="block text-2xl font-semibold text-gray-900">4 Years</span> Experience</div>
             </div>
           </motion.div>
         </div>
