@@ -1,4 +1,3 @@
-
 import { NavLink } from "react-router-dom";
 
 const navLinkClass = ({ isActive }) =>
@@ -35,14 +34,14 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-        <a
-  href="https://raw.githubusercontent.com/Sharma0813/Portfolio-main/main/AMAN_Resume.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="px-6 py-3 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-50 transition"
->
-  Download CV
-</a>
+          <a
+            href="https://raw.githubusercontent.com/Sharma0813/Portfolio-main/main/AMAN_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-50 transition"
+          >
+            Download CV
+          </a>
 
           <NavLink to="/contact" className="btn btn-primary text-sm">
             Hire Me
@@ -52,4 +51,3 @@ export default function Navbar() {
     </header>
   );
 }
-
